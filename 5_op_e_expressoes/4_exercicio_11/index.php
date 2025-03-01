@@ -13,5 +13,4 @@ echo "<br>";
 echo gettype("teste");
 echo "<br>";
 
-
 ?>
