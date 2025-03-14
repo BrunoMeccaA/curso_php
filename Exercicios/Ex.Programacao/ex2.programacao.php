@@ -1,7 +1,7 @@
 <?php
 
 // Função verificar acesso
-function verificarAcesso($idade = 18,$acesso = null){
+function verificarAcesso($idade = 18,$acesso = null): string{
     if($idade >= 18 && $acesso){
         return "Acesso Autorizado. <br>";
     } else if($idade <= 18 && $acesso){
@@ -11,12 +11,8 @@ function verificarAcesso($idade = 18,$acesso = null){
     }
 }
 
-// Testando a Função
+// Exemplo de Uso
 echo verificarAcesso(26, 3.7);
-echo "\n";
 echo verificarAcesso(12, 15.3);
-echo "\n";
 echo verificarAcesso(41, false);
-echo "\n";
-
 ?>
