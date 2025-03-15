@@ -16,3 +16,5 @@ echo compararNumeros(10, 5);  // Saída: O primeiro número é maior.
 echo compararNumeros(3, 8);   // Saída: O segundo número é maior.
 echo compararNumeros(7, 7);   // Saída: Os números são iguais.
 ?>
+
+
