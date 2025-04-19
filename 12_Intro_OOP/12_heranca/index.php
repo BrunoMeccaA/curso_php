@@ -22,7 +22,7 @@ class Humano {
 
 }
 
-class Programador extends HUmano{
+class Programador extends Humano{
 
 
 }
