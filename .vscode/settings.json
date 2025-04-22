@@ -1,3 +1,111 @@
 {
-    "workbench.preferredLightColorTheme": "Dracula Theme"
-}
+    "settingsSync.ignoredExtensions": [],
+    "git.autofetch": true,
+    "workbench.colorTheme": "Monokai Night",
+  
+    "workbench.preferredLightColorTheme": "Monokai Night",
+  
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": ["variable", "meta.definition.variable.name", "support.variable"],
+          "settings": {
+            "foreground": "#ffffff" // Variáveis (ex: $nome)
+          }
+        },
+        {
+          "scope": ["variable.language.this.php"],
+          "settings": {
+            "foreground": "#f700ff" // $this (escopo especial)
+          }
+        },
+        {
+          "scope": ["entity.name.function", "support.function", "meta.function-call"],
+          "settings": {
+            "foreground": "#ff5e00" // Funções e chamadas
+          }
+        },
+        {
+          "scope": ["meta.function-call.static", "support.function.static"],
+          "settings": {
+            "foreground": "#ff6600" // Métodos estáticos (Classe::metodo)
+          }
+        },
+        {
+          "scope": ["constant.other.php", "support.constant.define.php"],
+          "settings": {
+            "foreground": "#39FF14" // Constantes definidas com define()
+          }
+        },
+        {
+          "scope": ["entity.other.attribute-name.html", "entity.other.attribute-name"],
+          "settings": {
+            "foreground": "#FF8800" // Atributos HTML
+          }
+        },
+        {
+          "scope": ["comment", "comment.block.documentation"],
+          "settings": {
+            "foreground": "#888888", // Comentários
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": ["string", "string.quoted", "string.template"],
+          "settings": {
+            "foreground": "#d4ff14" // Strings normais
+          }
+        },
+        {
+          "scope": ["string.quoted.double.html", "string.quoted.single.html"],
+          "settings": {
+            "foreground": "#ffffff" // HTML dentro de PHP (ex: echo '<div>')
+          }
+        },
+        {
+          "scope": ["entity.name.tag", "meta.tag"],
+          "settings": {
+            "foreground": "#0059ff" // Tags HTML (ex: <div>)
+          }
+        },
+        {
+          "scope": ["keyword", "storage.type", "storage.modifier"],
+          "settings": {
+            "foreground": "#00ffea" // Palavras-chave PHP (ex: function, public)
+          }
+        },
+        {
+          "scope": ["constant.language", "support.constant", "constant.character", "constant.numeric"],
+          "settings": {
+            "foreground": "#14ff91" // Constantes PHP e números
+          }
+        },
+        {
+          "scope": ["punctuation.definition.tag", "punctuation.section.embedded.begin.php", "punctuation.section.embedded.end.php"],
+          "settings": {
+            "foreground": "#ffffff" // <?php ?>
+          }
+        },
+        {
+          "scope": ["punctuation.bracket", "meta.brace", "meta.block", "meta.group"],
+          "settings": {
+            "foreground": "#00FFFF" // Parênteses, colchetes e chaves
+          }
+        },
+        {
+          "scope": ["keyword.operator", "punctuation.separator", "punctuation.terminator"],
+          "settings": {
+            "foreground": "#ffffff" // Operadores (ex: = + ;) etc
+          }
+        },
+        {
+          "scope": ["support.class", "entity.name.type", "storage.type.class"],
+          "settings": {
+            "foreground": "#ff0062" // Nome de classes e tipos
+          }
+        }
+      ]
+    },
+    "workbench.iconTheme": "vs-nomo-dark"
+  }
+  
