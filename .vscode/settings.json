@@ -22,13 +22,13 @@
         {
           "scope": ["entity.name.function", "support.function", "meta.function-call"],
           "settings": {
-            "foreground": "#ff5e00" // Funções e chamadas
+            "foreground": "#ff3c00" // Funções e chamadas
           }
         },
         {
           "scope": ["meta.function-call.static", "support.function.static"],
           "settings": {
-            "foreground": "#ff6600" // Métodos estáticos (Classe::metodo)
+            "foreground": "#ffa600" // Métodos estáticos (Classe::metodo)
           }
         },
         {
@@ -46,7 +46,7 @@
         {
           "scope": ["comment", "comment.block.documentation"],
           "settings": {
-            "foreground": "#888888", // Comentários
+            "foreground": "#929292", // Comentários
             "fontStyle": "italic"
           }
         },
