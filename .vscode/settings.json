@@ -1,9 +1,16 @@
 {
-    "settingsSync.ignoredExtensions": [],
     "git.autofetch": true,
     "workbench.colorTheme": "Monokai Night",
-  
     "workbench.preferredLightColorTheme": "Monokai Night",
+    "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.fontWeight": "500",
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.minimap.enabled": false,
+    "editor.guides.bracketPairs": "active",
+    "workbench.iconTheme": "vs-nomo-dark",
   
     "editor.tokenColorCustomizations": {
       "textMateRules": [
@@ -106,6 +113,5 @@
         }
       ]
     },
-    "workbench.iconTheme": "vs-nomo-dark"
   }
   
