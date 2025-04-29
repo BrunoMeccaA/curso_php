@@ -46,7 +46,7 @@
         {
           "scope": ["comment", "comment.block.documentation"],
           "settings": {
-            "foreground": "#929292", // Comentários
+            "foreground": "#67c55e", // Comentários
             "fontStyle": "italic"
           }
         },
