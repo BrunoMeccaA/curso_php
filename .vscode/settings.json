@@ -72,7 +72,7 @@
         {
           "scope": ["entity.name.tag", "meta.tag"],
           "settings": {
-            "foreground": "#0059ff" // Tags HTML (ex: <div>)
+            "foreground": "#0099ff" // Tags HTML (ex: <div>)
           }
         },
         {
