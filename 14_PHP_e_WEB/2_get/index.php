@@ -9,7 +9,10 @@
 <body>
    <form action="processamento.php" method="GET">
     <div>
-    <input type="text name="nome" placeholder="Preencha seu nome">
+    <input type="text" name="nome" placeholder="Preencha seu nome">
+    </div>
+    <div>
+    <input type="text" name="idade" placeholder="Preencha sua idade">
     </div>
     <div>
        <input type="submit" value="Enviar"> 
